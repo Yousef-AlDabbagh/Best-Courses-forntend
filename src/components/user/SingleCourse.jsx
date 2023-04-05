@@ -82,6 +82,7 @@ export default function SingleCourse() {
     language,
     releseDate,
     tags,
+    type,
     donor = {},
     reviews = {},
     team = [],
@@ -144,7 +145,7 @@ export default function SingleCourse() {
           </ListWithLabel>
 
           <ListWithLabel label={"Type:"}>
-            <CustomButtonLink label={"More Than 50 hours"} clickable={false} />
+            <CustomButtonLink label={type} clickable={false} />
           </ListWithLabel>
 
           <ListWithLabel label={"Tags:"}>
